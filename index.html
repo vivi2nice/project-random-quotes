@@ -1,48 +1,46 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>
-		Random Quote 
-	</title>
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link href="style.css" type="text/css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <title>Random Quote Machine</title>
+        <meta charset="utf-8">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body>
+        
+<header>
 
-	<body>
-		<header>
-		<h1>Random Quote Machine</h1>
-        </header>
+<h1><strong>Inspirational <br /> Text</strong></h1>
+<hr style="width: 900"/>
 
-        <div class="container">
+</header>
 
-        	<table>
-        		<thead>
-        			<tr>
-        				<th colspan="2">
-        					<h1>YOUR QUOTE FOR TODAY</h1>
-        				</th>
-        			</tr>
-        			<tr>
-        				<th>
-        					<h2>search</h2>
+<div class="quote-box">
+  <div class="quote-text">
+    <i class="fa fa-quote-left"> </i><span id="text"></span>
+  </div>
+  <div class="quote-author" align="right">
+    - <span id="author"></span>
+  </div>
+  <div class="buttons">
+    <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
      
-        				</th>
-        				<th>
-        					<h2>twitter</h2>
-        				</th>
-        			</tr>
-        		</thead>
-        	</table>
-
-        </div>
-
-			
-		
-		<footer>
-			<h3>Contact</h3>
-		</footer>		
-	</body>
+    <div class="button" id="new-quote" align="right"><u><span style="pointer-events: auto;">New quote</span></u></div>
+  </div>
+</div>
+<div class="footer" align="bottom"><a href="https://alek.myportfolio.com/projects">by belka</a></div>
 
 
+        
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</div>
+</body>
 </html>
